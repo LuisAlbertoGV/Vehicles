@@ -134,7 +134,7 @@ namespace Vehicles.API.Controllers
                 return NotFound();
             }
 
-            EditUserViewModel model = new()
+            EditUserViewModel model = new ()
             {
                 Address = user.Address,
                 FirstName = user.FirstName,
